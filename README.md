@@ -1,25 +1,25 @@
 # README
 
+## Késako?
+
+Notre application propose 3 Landing Pages, une pour chacune de nos cibles. Chacune de ces LP permet, grace à d'ingénieux CTA (Call to Action) de convertir les visiteurs en leur permettant de s'inscrire à une newsletter personnalisée. Une fois leur inscription validée, les utilisateurs convertis recevront leur newsletter directemetnsur la boîte mail renseignée lors de l'inscription. :)
+
 ## Les cibles
 
-* alumnis entrepreneurs (scrapper le site alumni science po)
-* etudiants entrepreneurs (par les références pépites)
+* Alumnis entrepreneurs (scrapper le site Alumni Sciences Po)
+* Etudiants entrepreneurs (par les Référents PEPITE)
 * Les renegats de parcoursup (avec le bot twitter)
 
 ## Que devons nous coder ?
 
 ### Le front
 
-* Une static page pour les alumnis
-* Une static page pour les étudiants
-* Une static page à définir
+* Une Landing Page pour les Alumnis
+* Une Landing Page pour les Etudiants
+* Une Landing Page à définir
 
 ### Le back
 
-* Un mailer
-* Un bot Twitter
-* Un scrapper
-
-### Le schedule
-
-### Le tracking
+* Un Mailer
+* Un Bot Twitter
+* Un Scrapper
