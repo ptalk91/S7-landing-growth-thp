@@ -3,7 +3,7 @@ class NewsletterMailer < ApplicationMailer
 
   def welcome_newsletter
     @user = params[:user]
-    @url  = 'https://giphy.com/gifs/jairaburns-jaira-burns-l1J3IyRevTr1hxrTq'
+    @url  = 'https://www.thehackingproject.org/code'
     mail(to: @user.email, subject: 'A bord moussaillon!!')
   end
 end
