@@ -20,7 +20,7 @@ class TwitterBot
   private
 
   def do_stuff
-    @client.update("Envie d'apprendre le code ? Découvrez la formation gratuite #TheHackingProject sur https://landing-growth-biche.herokuapp.com/ #code #parcoursup #startup #hacker")
+    @client.update("Envie d'apprendre à coder en 3 mois? Découvrez la formation gratuite #TheHackingProject sur https://landing-growth-biche.herokuapp.com/ #code #parcoursup #startup #hacker")
   end
 
 end
