@@ -1,0 +1,29 @@
+.magaret
+
+{
+
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:100px;
+  height:100px;
+}
+
+.temoin
+
+{
+background-color: #d6d6d6;
+}
+
+
+.textfinal
+{
+padding-top: 5px;
+}
+
+.temoinun
+
+{
+background-color: #f7f7f7;
+}

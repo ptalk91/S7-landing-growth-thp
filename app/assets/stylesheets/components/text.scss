@@ -1,0 +1,79 @@
+
+// @import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Bungee+Inline') rel="stylesheet");
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+
+/* .main_content h2 {
+    float: left;
+    color: rgb(66, 76, 92);
+    font-size: 3em;
+    margin-top: 0.2em;
+    border-bottom: 0.125em solid;
+} */
+
+.main_content h3 {
+    color: #3e3b3f;
+}
+
+.skills h4
+{
+  padding-top: 12px;
+}
+
+
+.skills h3
+{
+  padding-top: 10px;
+}
+
+.skills p {
+    margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+      letter-spacing: 0.05em;
+      padding-top: 10px;
+
+}
+
+/* Sub Content Styling */
+.sub_content {
+    clear: both;
+    height: 420px;
+    padding-top: 5em;
+}
+
+.sub_content h2 {
+    color: rgb(66, 76, 92);
+    font-size: 3em;
+    border-bottom: 0.125em solid;
+    width: 15%;
+    float: left;
+    margin-top: 0;
+}
+
+.work_showcase {
+    float: right;
+    width: 400px;
+}
+
+
+
+.small-img {
+    width: 400px;
+}
+
+.work_showcase img {
+    border: 0.4em solid rgba(0,0,0,0.3);
+    border-radius: 1em;
+}

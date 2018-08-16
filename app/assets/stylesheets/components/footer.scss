@@ -1,0 +1,63 @@
+/* Footer Styling */
+footer {
+    background: rgb(73, 77, 162);
+    height: 200px;
+}
+
+
+.footer_container {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 2.5em;
+}
+
+.footer_container ul {
+    padding: 0;
+}
+
+.footer_container li {
+    font-size: 1.8em;
+}
+
+.footer_container h3 {
+    color: rgb(170,171,187);
+    /* text-transform: uppercase; */
+    letter-spacing: 0.2em;
+}
+
+
+.footer_container li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.footer_container p {
+    color: rgb(170,171,187);
+}
+
+.social_icons {
+    color: rgb(131, 134, 192);
+    transition: ease-in 450ms;
+}
+
+.social_icons:hover {
+    color: rgb(255,255,255);
+}
+
+
+.title {
+    float: left;
+    margin: 0;
+    padding: 1em 2em;
+    font-size: 1.175em;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+
+}
+
+.logo {
+float: left;
+margin: 3px;
+width: 99px;
+padding-left: 10px;
+}

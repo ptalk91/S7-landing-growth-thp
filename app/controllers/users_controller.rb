@@ -32,6 +32,7 @@ class UsersController < ApplicationController
         NewsletterMailer.with(user: @user).welcome_newsletter.deliver_now
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
+        TwitterBot.new.perform
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
