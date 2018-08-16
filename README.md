@@ -1,25 +1,43 @@
-# README
+# Landing Pages Growth Hacking pour THP
 
-## Késako?
+L'équipe : Dimitri, Amélie, Valérie, Stéphane et Pierre Tâm-Anh.
 
-Notre application propose 3 Landing Pages, une pour chacune de nos cibles. Chacune de ces LP permet, grace à d'ingénieux CTA (Call to Action) de convertir les visiteurs en leur permettant de s'inscrire à une newsletter personnalisée. Une fois leur inscription validée, les utilisateurs convertis recevront leur newsletter directemetnsur la boîte mail renseignée lors de l'inscription. :)
+Lien héroku : 
 
-## Les cibles
+## Le Projet 
 
-* Alumnis entrepreneurs (scrapper le site Alumni Sciences Po)
-* Etudiants entrepreneurs (par les Référents PEPITE)
-* Les renegats de parcoursup (avec le bot twitter)
+L'objectif de ce projet est de recruter de nouveaux moussaillons pour la prochaine session de THP. Pour ce faire, notre équipe va procéder en trois étapes
 
-## Que devons nous coder ?
+1/ *Ciblage* de mail et comptes prospects via scrapping d'emails et taggage comptes twitters via bot ;
+2/ *Acquisition* de leads via l'inscription à la newsletter de THP demandée CTA (Call-To-Action) landing page ;
+3/ *Analyse* de conversion de notre page ;
+4/ *Mailing* et *Newsletter*.
+
+## Nos cibles
+
+On va se concentrer sur trois groupes d'intérêts des Alumni des Sciences Po que l'on va scrapper 
+
+* Alumnis entrepreneurs ;
+* Alumnis marketing ;
+* Les followers de JeuxVidéos.Com (avec le bot twitter).
+
+## Qu'avons-nous codé ?
 
 ### Le front
 
-* Une Landing Page pour les Alumnis
-* Une Landing Page pour les Etudiants
-* Une Landing Page à définir
+On a décidé de mettre une landing page généraliste et voir laquelle convertira le plus en fonction du groupe d'intérêt.
 
 ### Le back
 
-* Un Mailer
 * Un Bot Twitter
-* Un Scrapper
+* Un Scrapper pour les almunis de Sciences Po
+* Un Mailer qui envoie les emails de confirmation aux personnes inscrites à la newsletter. 
+
+## Gems utilisées
+Nokogiri et httparty, scrapping
+Twitter, acces à l'API
+Gibbon, pour le mailing MailChimp
+Whenever comme event scheduler
+
+## Data-Base
+Sqlite3 en dev/test et postgresql en production
