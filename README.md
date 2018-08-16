@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Les cibles
 
-Things you may want to cover:
+* alumnis entrepreneurs (scrapper le site alumni science po)
+* etudiants entrepreneurs (par les références pépites)
+* Les renegats de parcoursup (avec le bot twitter)
 
-* Ruby version
+## Que devons nous coder ?
 
-* System dependencies
+### Le front
 
-* Configuration
+* Une static page pour les alumnis
+* Une static page pour les étudiants
+* Une static page à définir
 
-* Database creation
+### Le back
 
-* Database initialization
+* Un mailer
+* Un bot Twitter
+* Un scrapper
 
-* How to run the test suite
+### Le schedule
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Le tracking
