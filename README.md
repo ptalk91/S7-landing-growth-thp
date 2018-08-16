@@ -19,7 +19,7 @@ On va se concentrer sur trois groupes d'intérêts des Alumni des Sciences Po qu
 
 * Alumnis entrepreneurs ;
 * Alumnis marketing ;
-* Les followers de JeuxVidéos.Com (avec le bot twitter).
+* Alumnis RH.
 
 ## Qu'avons-nous codé ?
 
@@ -31,7 +31,7 @@ On a décidé de mettre une landing page généraliste et voir laquelle converti
 
 * Un Bot Twitter
 * Un Scrapper pour les almunis de Sciences Po
-* Un Mailer qui envoie les emails de confirmation aux personnes inscrites à la newsletter. 
+* Un Mailer qui envoie les emails de confirmation aux personnes inscrites à la newsletter de THP. 
 
 ## Gems utilisées
 Nokogiri et httparty, scrapping
