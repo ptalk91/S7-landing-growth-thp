@@ -2,7 +2,7 @@
 
 L'équipe : Dimitri, Amélie, Valérie, Stéphane et Pierre Tâm-Anh.
 
-Lien héroku : 
+Lien héroku : https://landing-growth-biche.herokuapp.com/
 
 ## Le Projet 
 
